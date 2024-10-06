@@ -1,0 +1,9 @@
+{
+  "clock": {
+      // "timezone": "America/New_York",
+      "interval": 1,
+      "format": "{:%a %D %T}",
+      "format-alt": "{:%A, %b %d, %Y %T}",
+      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  }  
+}

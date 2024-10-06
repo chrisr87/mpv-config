@@ -1,0 +1,9 @@
+{
+  "custom/gpu-power-draw": {
+      "exec": "calc-power",
+      "format": "{}W",
+      "return-type": "",
+      "interval": 1,
+      "tooltip": false
+  }
+}

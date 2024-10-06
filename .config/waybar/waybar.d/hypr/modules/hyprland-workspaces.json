@@ -1,0 +1,29 @@
+{
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "on-click": "activate",
+    "format": "{windows}",
+    "window-rewrite-default": "",
+    "window-rewrite": {
+      "deluge": "",
+      "Tor Browser": "",
+      "foot": "",
+      "nvim": "",
+      "calibre-ebook-viewer": "󱓷",
+      "obsidian": "",
+      "io.github.quodlibet.QuodLibet": "♪",
+      "7kaa": "⚔️",
+      "nvim": "",
+      "nemo": "",
+      "code-insiders-url-handler": "󰘐",
+      "whatsapp-for-linux": "",
+      "[Ff]irefox": "",
+      "mpv": "",
+      "betterbird": "",
+      "calibre-gui": "󱉟",
+      "PokeMMO": "󰐝",
+      "foot": "",
+      "org.musicbrainz.Picard": "󰓹"
+    }
+  }
+}

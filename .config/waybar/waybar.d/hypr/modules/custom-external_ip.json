@@ -1,0 +1,8 @@
+{
+  "custom/external-ip": {
+    "exec": "curl -s https://myipv4.p1.opendns.com/get_my_ip | jq -c -M '{\"text\": .ip}'",
+    "return-type": "json",
+    "format": "{}",
+    "interval": 3600
+  }
+}

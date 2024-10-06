@@ -1,0 +1,18 @@
+{
+  "hyprland/window": {
+    "format": "{title}",
+    "rewrite": {
+        "(.*) — Mozilla Firefox": "$1",
+        "Firefox Developer Edition": "$1",
+        "(.*) — Firefox Developer Edition": "$1",
+        "(.*) - Visual Studio Code": "$1",
+        "(.*) - Visual Studio Code - Insiders": "$1",
+        "(.*) - Quod Libet": "$1",
+        "nvim (.*)": "$1",
+        "(.*) - Betterbird": "$1"
+    },
+    "icon": true,
+    "max-length": 200,
+    "separate-outputs": true
+  }
+}

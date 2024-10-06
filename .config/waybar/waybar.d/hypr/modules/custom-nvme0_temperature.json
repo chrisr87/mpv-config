@@ -1,0 +1,9 @@
+{
+  "custom/nvme0-temperature": {
+      "exec": "echo $(($(cat /sys/class/nvme/nvme0/hwmon*/temp1_input)/1000))",
+      "format": "NVMe-0: {}°C",
+      "return-type": "",
+      "interval": 1,
+      "tooltip": false
+  }
+}

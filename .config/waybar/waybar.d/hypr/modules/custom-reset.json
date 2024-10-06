@@ -1,0 +1,6 @@
+{
+  "custom/reset": {
+    "format": "♻️",
+    "on-click": "killall -SIGUSR2 waybar >> $LOGDIR/waybar.log"
+  }
+}
