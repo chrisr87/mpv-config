@@ -1,7 +1,7 @@
 * {
     all: unset;
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: "UbuntuMono";
+    font-family: "Arimo Nerd Font";
     font-size: 16px;
 }
 
@@ -114,6 +114,9 @@ window#waybar.chromium {
     color: #ffffff;
 }
 
+#clock {
+    font-family: "Arimo Nerd Font";
+}
 
 #custom-weather {
     padding: 0 3px 0 0;
