@@ -1,0 +1,72 @@
+# Global
+
+# Set the default timeout to timeout in milliseconds. To disable the timeout, set it to zero.
+# Default: 0
+default-timeout=3000
+
+# If set, mako will ignore the expire timeout sent by notifications and use the one provided by default-timeout instead.
+# Default: 0
+ignore-timeout=1
+
+# Set notification format string to format. See FORMAT SPECIFIERS for more information. To change this for grouped notifications, set it within a grouped criteria.
+# Default: <b>%s</b>\n%b Default when grouped: (%g) <b>%s</b>\n%b
+format=(%g) <b>%s</b>\n%b
+
+# Set background color to color. See COLORS for more information.
+# Default: #285577FF
+# background-color=#00000000 # transparent
+background-color=#00000080
+
+# Set font to font, in Pango format.
+# Default: monospace 10
+font=monospsace 10
+
+# Set width of notification popups.
+# Default: 300
+width=400
+
+# Set maximum height of notification popups. Notifications whose text takes up less space are shrunk to fit.
+# Default: 100
+height=200
+
+# Set maximum icon size to px pixels.
+# Default: 64
+max-icon-size=64
+
+# Show notifications on the specified output. If empty, notifications will appear on the focused output.
+# Requires the compositor to support the Wayland protocol xdg-output-unstable-v1 version 2.
+# Default: ""
+
+
+# Set popup border size to px pixels.
+# Default: 2
+border-size=0
+
+# Rounded borders
+border-radius=15
+
+# On top of everything
+layer=overlay
+
+[app-name="Betterbird"]
+ignore-timeout=0
+
+[app-name="Quod Libet"]
+# output=DP-2
+format=<b>%s</b>\n%b
+
+[app-name="Quod Libet" body~="MP3$"]
+background-color=#FF000040
+
+# [app-name="Notification"]
+# ignore-timeout=0
+# layer=overlay
+
+[app-name="Notification - Chaturbate"]
+ignore-timeout=0
+layer=overlay
+on-button-left=exec xdg-open $(makoctl list | jq -r '.data|..|select(.id?.data=='$id')|.actions|.data."url"') && makoctl dismiss -n "$id"
+
+[app-name="Notification - Beyerdynamic" body~="In Stock"]
+ignore-timeout=0
+# background-color=#00FF0040
