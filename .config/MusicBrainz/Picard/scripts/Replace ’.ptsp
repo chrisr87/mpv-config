@@ -1,0 +1,7 @@
+title: "Replace \u2019"
+script_language_version: '1.1'
+script: "$set(title,$replace(%title%,\u2019,'))\n$set(artist,$replace(%artist%,\u2019\
+  ,'))\n$set(album,$replace(%album%,\u2019,'))\n$set(artistsort,$replace(%artistsort%,\u2019\
+  ,'))\n$set(albumartist,$replace(%albumartist%,\u2019,'))\n$set(albumartistsort,$replace(%albumartistsort%,\u2019\
+  ,'))\n$foreach(%artists%,$replace(%artists%,\u2019,' ))\n"
+id: 8a988551-88a3-4ec7-a999-d607348b2d10

@@ -1,0 +1,16 @@
+title: Remove Ampersand Conjunction
+script_language_version: '1.1'
+script: |
+  $set(temp_artist,-1)
+  $foreach(%artists%,
+      $if($in(%_loop_value%,&),$set(temp_artist,%_loop_count%))
+  )
+
+  $if($eq(%temp_artist%,-1),
+      $set(artist,$replace(%artist%, & ,\, ))
+      $set(artistsort,$replace(%artistsort%, & ,\, ))
+      $set(albumartist,$replace(%albumartist%, & ,\, ))
+      $set(albumartistsort,$replace(%albumartistsort%, & ,\, ))
+  )
+  $delete(temp_artist)
+id: fed8a30d-03a2-49c5-b85f-57639cd38618

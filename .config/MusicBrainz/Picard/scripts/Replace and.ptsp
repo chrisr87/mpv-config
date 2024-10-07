@@ -1,0 +1,5 @@
+title: Replace and
+script_language_version: '1.1'
+script: |
+  $foreach(%artists%,$if($not($in(%_loop_value%,and)),$set(artist,$replace(%artist%, and ,\, )))$set(artistsort,$replace(%artistsort%, and ,\, ))$set(albumartist,$replace(%albumartist%, and ,\, ))$set(albumartistsort,$replace(%albumartistsort%, and ,\, )))
+id: 0a5ebe60-dc93-4274-81e8-304240819243
