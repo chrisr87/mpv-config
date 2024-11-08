@@ -1,0 +1,25 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+left",
+        "command": "editor.action.moveCarretLeftAction",
+        "when": "editorTextFocus && editorHasSelection"
+    },
+    {
+        "key": "alt+right",
+        "command": "editor.action.moveCarretRightAction",
+        "when": "editorTextFocus && editorHasSelection"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "-workbench.action.focusSideBar"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "workbench.action.zoomReset"
+    },
+    {
+        "key": "ctrl+numpad0",
+        "command": "-workbench.action.zoomReset"
+    }
+]
