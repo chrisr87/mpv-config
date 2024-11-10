@@ -32,7 +32,6 @@
     "~/.config/waybar/waybar.d/hypr/modules/clock.json",
     "~/.config/waybar/waybar.d/hypr/modules/cpu.json",
     "~/.config/waybar/waybar.d/hypr/modules/custom-external_ip.json",
-    "~/.config/waybar/waybar.d/hypr/modules/custom-gpu_power_draw.json",
     "~/.config/waybar/waybar.d/hypr/modules/custom-nvme0_temperature.json",
     "~/.config/waybar/waybar.d/hypr/modules/custom-nvme1_temperature.json",
     "~/.config/waybar/waybar.d/hypr/modules/custom-reset.json",
