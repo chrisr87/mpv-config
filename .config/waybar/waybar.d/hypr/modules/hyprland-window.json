@@ -9,10 +9,12 @@
         "(.*) - Visual Studio Code - Insiders": "$1",
         "(.*) - Quod Libet": "$1",
         "nvim (.*)": "$1",
-        "(.*) - Betterbird": "$1"
+        "(.*) - Betterbird": "$1",
+	"(.*)༽(.*)": "$1$2",
+	"(.*?)༽(.*)": "$1$2"
     },
     "icon": true,
-    "max-length": 200,
+    "max-length": 100,
     "separate-outputs": true
   }
 }
