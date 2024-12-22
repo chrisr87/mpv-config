@@ -9,7 +9,7 @@
 export EDITOR="${EDITOR:-nvim}"
 export VISUAL="${VISUAL:-nvim}"
 export PAGER="${PAGER:-bat}"
-export BROWSER="${BROWSER:-firefox-developer-edition}"
+export BROWSER="${BROWSER:-firefox}"
 export LOGDIR=${LOGDIR:-$HOME/.log}
 export BACKUPDIR=${BACKUPDIR:-$HOME/.backup}
 export GITDIR=${GITDIR:-$HOME/git}
