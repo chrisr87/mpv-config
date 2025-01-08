@@ -2,6 +2,7 @@
   "bar_id": "bar-0",
   "output": "DP-1",
   "layer": "top",
+  "height": 25,
   "spacing": 4,
   "reload_style_on_change": true,
   "modules-left": [
