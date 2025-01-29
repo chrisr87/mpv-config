@@ -16,3 +16,6 @@
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = git@github.com:chrisr87/kickstart.nvim.git
+[submodule ".config/mpv"]
+	path = .config/mpv
+	url = git@github.com:chrisr87/mpv-settings.git
