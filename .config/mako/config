@@ -52,10 +52,11 @@ layer=overlay
 ignore-timeout=0
 
 [app-name="Quod Libet"]
-# output=DP-2
+output=DP-1
 format=<b>%s</b>\n%b
 
 [app-name="Quod Libet" body~="MP3$"]
+output=DP-1
 background-color=#FF000040
 
 # [app-name="Notification"]

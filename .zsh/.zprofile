@@ -14,7 +14,9 @@ export LOGDIR=${LOGDIR:-$HOME/.log}
 export BACKUPDIR=${BACKUPDIR:-$HOME/.backup}
 export GITDIR=${GITDIR:-$HOME/git}
 export SCRIPTDIR=${SCRIPTDIR:-$HOME/scripts}
-export DGPUPATH=/dev/dri/card0
+export DGPUPATH=$($SCRIPTDIR/gpu-path.sh 'GeForce RTX 4090')
+export IGPUPATH=$($SCRIPTDIR/gpu-path.sh 'Radeon Graphics')
+
 export DIFFPROG='nvim -d'
 
 # Ensure path arrays do not contain duplicates.
