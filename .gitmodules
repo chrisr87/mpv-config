@@ -24,4 +24,3 @@
 	path = .config/mpv
 	url = git@github.com:chrisr87/mpv-config.git
 	branch = master
-	update = merge
