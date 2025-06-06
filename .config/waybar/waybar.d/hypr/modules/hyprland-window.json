@@ -14,6 +14,7 @@
 	"(.*?)༽(.*)": "$1$2"
     },
     "icon": true,
+    "icon-size": 16,
     "max-length": 100,
     "separate-outputs": true
   }
